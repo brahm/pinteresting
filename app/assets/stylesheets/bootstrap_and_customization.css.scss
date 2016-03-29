@@ -1,0 +1,43 @@
+// SASS VARIABLES
+$body-bg: #ecf0f1;
+$navbar-default-link-color: #2c3e50;
+$jumbotron-bg: #2c3e50;
+$jumbotron-link-color: #ecf0f1;
+$jumbotron-color: #ecf0f1;
+$btn-primary-bg: #16a085;
+$h1: #2c3e50;
+
+// LIBS
+@import "bootstrap-sprockets";
+@import 'bootstrap';
+
+//CUSTOM CSS
+footer {
+    margin: 50px 0;
+}
+
+.glyphicon.glyphicon-picture {
+    font-size: 200px;
+    display: block;
+    text-align:center;
+}
+
+.featurette-divider {
+    margin: 40px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
