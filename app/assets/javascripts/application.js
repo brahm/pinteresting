@@ -15,4 +15,6 @@
 //= require bootstrap-sprockets
 //= require bootstrap
 //= require turbolinks
+//= require masonry/masonry.min
+//= require masonry/jquery.imagesloaded.min
 //= require_tree .
