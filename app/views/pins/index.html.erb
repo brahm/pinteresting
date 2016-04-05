@@ -11,7 +11,7 @@
       <%= link_to image_tag(pin.image.url(:medium)), pin %>
       <div class="panel-body">
         <h5><%= pin.description %></h5>
-        <p><spam class="glyphicon glyphicon-user" aria-hidden="true"></spam> <strong><%= pin.user.email if pin.user %></strong><p>
+        <p><spam class="glyphicon glyphicon-user" aria-hidden="true"></spam> <strong><%= pin.user.name if pin.user %></strong><p>
       </div>
         <% if pin.user == current_user %>
           <div class="panel-footer text-center">
